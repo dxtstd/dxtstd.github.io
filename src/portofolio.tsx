@@ -1,5 +1,8 @@
 import "./style.css"
 
+const introduction: string = "Someone who wants to create technology that is useful for the future. He does programming, editing and designing to find an identity. Learning new things is a challenge for him, he does everything to improve his skills." ||
+                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor dignissim ipsum, eu eleifend metus. Mauris fermentum eros eget eros pharetra bibendum nec ut neque. Nullam euismod nunc est, ut facilisis urna mattis id. Duis vehicula fringilla ligula. Pellentesque ullamcorper feugiat magna vitae commodo." 
+
 export default function MyPortofolio() {
   return (
     <>
@@ -10,7 +13,7 @@ export default function MyPortofolio() {
             <hr className="h-[2px] w-[140px] my-[1px] bg-black border-0"></hr>
             <p className="text-[14px] text-[#cfcfcf]">newbie programmer</p>
             <article className="w-[430px] h-[150px]">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor dignissim ipsum, eu eleifend metus. Mauris fermentum eros eget eros pharetra bibendum nec ut neque. Nullam euismod nunc est, ut facilisis urna mattis id. Duis vehicula fringilla ligula. Pellentesque ullamcorper feugiat magna vitae commodo.</p>
+              <p>{introduction}</p>
             </article>
           </div>
           <div className="h-500 w-400 p-[35px]">
