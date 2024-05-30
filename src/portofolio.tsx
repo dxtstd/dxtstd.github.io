@@ -4,10 +4,10 @@ export default function MyPortofolio() {
   return (
     <>
       <div>
-        <section id="landing" className="flex justify-around items-center px-[100px] py-[100px] h-[100dvh]">
+        <section id="landing" className="flex justify-around flex-col xl:flex-row h-dvh max-h-dvh items-center p-16 xl:p-32 duration-[0.5s]">
           <div className="w-[450px] h-[250px] p-[10px]">
-            <p className="text-[32px] font-bold">dxtstd</p>
-            <hr className="h-[2px] w-[140px] bg-black border-0"></hr>
+            <p className="text-[32px] max-w-max px-[1px] font-bold hover:bg-[#00000050] hover:text-[#ffffff] duration-[0.25s]">dxtstd</p>
+            <hr className="h-[2px] w-[140px] my-[1px] bg-black border-0"></hr>
             <p className="text-[14px] text-[#cfcfcf]">newbie programmer</p>
             <article className="w-[430px] h-[150px]">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor dignissim ipsum, eu eleifend metus. Mauris fermentum eros eget eros pharetra bibendum nec ut neque. Nullam euismod nunc est, ut facilisis urna mattis id. Duis vehicula fringilla ligula. Pellentesque ullamcorper feugiat magna vitae commodo.</p>
