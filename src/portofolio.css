@@ -11,7 +11,7 @@
     }
 }
 
-.my_name::after {
+.title::after {
     content: "";
     animation: word_typing 1s linear infinite;
 }
@@ -34,4 +34,38 @@
 
 #landing .my_boy {
   @apply bg-[#CFCFCF] w-60 h-74 md:w-[350px] md:h-[430px] rounded-[30px] items-center overflow-clip
+}
+
+#experience {
+  @apply duration-[0.5s]
+}
+
+#experience .line {
+  @apply h-[2px] w-[200px] my-[1px] bg-black border-0
+}
+
+#experience h1 {
+  @apply text-[20px] md:text-[32px] max-w-max px-[1px] font-bold hover:bg-[#00000050] hover:text-[#ffffff] duration-[0.25s]
+}
+#experience .experience {
+  @apply w-max h-35 bg-gray-100 p-8 rounded-2xl border-gray-300 border-[1px] drop-shadow-black shadow-xl
+}
+
+#experience .experience .place p {
+  @apply text-[12px]
+}
+
+#education {
+  @apply duration-[0.5s]
+}
+
+#education .line {
+  @apply h-[2px] w-[200px] my-[1px] bg-black border-0
+}
+
+#education h1 {
+  @apply text-[20px] md:text-[32px] max-w-max px-[1px] font-bold hover:bg-[#00000050] hover:text-[#ffffff] duration-[0.25s]
+}
+#education .education .place p {
+  @apply text-[12px]
 }
